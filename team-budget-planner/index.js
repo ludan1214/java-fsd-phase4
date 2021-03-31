@@ -184,6 +184,7 @@ app.post('/deleteUser', function(req, res) {
         throw err;
       }
       console.log("User Deleted");
+      return;
     });
   });
 
